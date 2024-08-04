@@ -66,9 +66,10 @@ body > main > header > nav > ul{
 }
 .line > a{
     /* margin:1%; */
-    font-size: 12px;
+    font-size: 10px;
     background-color: #EAEAEA;
     width:100%;
+    max-width: 162px;
     height:65px;
     display:flex;
     justify-content: center;

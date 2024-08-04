@@ -34,6 +34,7 @@ article > .imgBox{
     align-items:center flex-start;
     flex-direction: column;
 }
+
 article > .imgBox > p{
     font-size: 47px;
     width:727px;
@@ -41,6 +42,7 @@ article > .imgBox > p{
     margin:1%;
     margin-left:25px;
 }
+
 .rowLine{
     display:flex;
     justify-content: flex-start;
@@ -99,7 +101,7 @@ article > .imgBox > p{
 }
 .oval > div{
     width:100%;
-    max-width:300px;
+    max-width:270px;
 }
 section{
     background-color: #ECECEC;
@@ -111,6 +113,10 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+section > p{
+    text-align: center;
+    margin:3%;
 }
 section > h3{
     font-size: 48px;
