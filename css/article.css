@@ -41,8 +41,14 @@ article > .imgBox > p{
     min-height:173px;
     margin:1%;
     margin-left:25px;
+    width:100%;
 }
-
+@media(max-width:700px){
+    article > .imgBox > p{
+        font-size:22px;
+        margin-left:0;
+    }
+}
 .rowLine{
     display:flex;
     justify-content: flex-start;
@@ -56,7 +62,8 @@ article > .imgBox > p{
     flex-direction: row;
 }
 .boxCallUs{
-    width:625px;
+    width:100%;
+    max-width:625px;
     height:147px;
     background-color: #ECECEC;
     border-radius:17px;
@@ -64,6 +71,7 @@ article > .imgBox > p{
     justify-content: center;
     align-items: center;
     flex-direction:column;
+    box-shadow: 3px 3px 33px black;
 }
 .boxCallUs > div{
     display:flex;
@@ -98,6 +106,7 @@ article > .imgBox > p{
     justify-content: center;
     align-items:center;
     flex-wrap:wrap;
+    box-shadow: 3px 3px 33px black;
 }
 .oval > div{
     width:100%;
@@ -121,6 +130,11 @@ section > p{
 section > h3{
     font-size: 48px;
     text-align: center;
+}
+@media(max-width:770px){
+    article > section > h3{
+        font-size: 22px;
+    }
 }
 .whatNeedFix{
     display:flex;
@@ -149,6 +163,7 @@ section > h3{
     height:157px;
     background-color: white;
     border-radius:17px;
+    box-shadow: 3px 3px 33px black;
 }
 .boxCallUsTwo > div > input{
     width:100%;
@@ -173,6 +188,7 @@ section > h3{
     border-radius: 17px;
     color:white;
     font-size:20px;
+    box-shadow: 3px 3px 33px black;
 }
 .bigBox{
     display:flex;
@@ -185,6 +201,7 @@ section > h3{
     height:616px;
     border-radius: 27px;
     margin:37px;
+    box-shadow: 3px 3px 33px black;
 }
 .bigBox > div{
     display:flex;
@@ -192,8 +209,9 @@ section > h3{
     align-items: center;
     width:100%;
     max-width:1140px;
+    flex-wrap: wrap;
 }
-.bigBox > img{
+.bigBox > div > img{
     width:100%;
     max-width:487px;
     height:303px;
