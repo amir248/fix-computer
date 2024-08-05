@@ -12,6 +12,16 @@ footer{
     flex-wrap:wrap;
     background-color: white;
 }
+footer > div > p > span:nth-child(1){
+    font-size: 33px;
+    color:red;
+    text-shadow:black 1px 1px;
+}
+footer > div > p > span:nth-child(2){
+    font-size: 33px;
+    color:green;
+    text-shadow:black 1px 1px;
+}
 footer > div{
     width:100%;
     max-width: var(--width-global);

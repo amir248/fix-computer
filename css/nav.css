@@ -12,6 +12,16 @@
 :root{
     --width-global: 1140px;
 }
+.logo > span:nth-child(1){
+    font-size: 33px;
+    color:red;
+    text-shadow:black 1px 1px;
+}
+.logo > span:nth-child(2){
+    font-size: 33px;
+    color:green;
+    text-shadow:black 1px 1px;
+}
 body > main > header{
     display:flex;
     justify-content: center;
