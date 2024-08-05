@@ -3,6 +3,12 @@
     padding:0;
     font-family: Circle;
 }
+@media(min-width:800px){
+    .oneLine,.twoLine,.threeLine{
+        display:none;
+    }
+}
+
 :root{
     --width-global: 1140px;
 }
@@ -66,7 +72,7 @@ body > main > header > nav > ul{
 }
 .line > a{
     /* margin:1%; */
-    font-size: 10px;
+    font-size: 12px;
     background-color: #EAEAEA;
     width:100%;
     max-width: 162px;
@@ -78,7 +84,41 @@ body > main > header > nav > ul{
     color:black;
     font-weight:bold;
 }
+.line > a:nth-child(1){
+    max-width: 120px;
+}
+.line > a:nth-child(2){
+    max-width: 97px;
+}
+.line > a:nth-child(3){
+    max-width: 120px;
+}
+.line> a:nth-child(4){
+    max-width:180px;
+}
+.line > a:nth-child(6){
+    max-width: 210px;
+}
+.line > a:nth-child(7){
+    max-width: 250px;
+}
 .line > a:hover{
     background-color: #02A653;
     color:white;
+    text-shadow: black 1px 1px;
+}
+
+@media(max-width:800px){
+    body > main > header > nav > ul{
+        display:none;
+    }
+    .oneLine,.twoLine,.threeLine{
+        display:block;
+        width:70px;
+        height:3px;
+        background:#02A653;
+        margin-top:7px;
+        margin-bottom:7px;
+    }
+   
 }
