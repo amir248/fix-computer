@@ -17,13 +17,14 @@ article{
     align-items:center;
     flex-direction: column;
     background-color: #ECECEC;
-
+    overflow:hidden;
 }
 /* article > img{
     width: 100%;
     max-width: var(--width-global);
 } */
 article > .imgBox{
+    overflow:hidden;
     width: 100%;
     max-width:var(--width-global);
     background-image: url('../img/bg.jpg');
