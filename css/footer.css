@@ -4,11 +4,13 @@
 }
 footer{
     width:100%;
+    min-height:150px;
     max-width: var(--width-global);
     display:flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap:wrap;
+    background-color: white;
 }
 footer > div{
     width:100%;

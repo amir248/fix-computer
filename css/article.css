@@ -254,6 +254,10 @@ section > h3{
     align-items: center;
     flex-wrap: wrap;
 }
+.leaders-markets > picture > img{
+    width:100%;
+    max-width: 832px;
+}
 .leaders-markets > picture > span{
     font-size: 90px;
 }
@@ -265,4 +269,19 @@ section > h3{
     border-radius: 17px;
     color:white;
     font-size: 20px;
+}
+.ourContacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    max-width: var(--width-global);
+    flex-wrap: wrap;
+    min-height: 659px;
+    background-color: white;
+    border-radius: 57px;
+    box-shadow: 3px 3px 33px black;
+}
+.ourContacts > div{
+    margin:1%;
 }
