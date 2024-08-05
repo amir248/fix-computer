@@ -234,3 +234,35 @@ section > h3{
     color:white;
     border-radius:17px;
 }
+
+.leaders-markets{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    /* background-color:#02A653; */
+    width: 100%;
+    min-height:900px;
+    max-width: 11490px;
+    flex-direction: column;
+}
+.leaders-markets > picture{
+    width:100%;
+    max-width: 952px;
+    min-height:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.leaders-markets > picture > span{
+    font-size: 90px;
+}
+.leaders-markets > button{
+    width:100%;
+    max-width:300px;
+    height: 58px;
+    background-color: #02A653;
+    border-radius: 17px;
+    color:white;
+    font-size: 20px;
+}
