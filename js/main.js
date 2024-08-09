@@ -16,7 +16,7 @@ function bodyDocument(){
                 let menu = document.createElement('script');
                 menu.src = "js/menu.js";
                 document.body.append(menu);
-            },1700);
+            },700);
         };
         resolve(itsBody());
     })
